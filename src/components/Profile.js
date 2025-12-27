@@ -139,7 +139,7 @@ export default function Profile({ mode, url, name, email }) {
       {/* Resume Button */}
       <div className="flex justify-center mt-12">
         <a
-          href="/resume.pdf"
+          href="/mayank_full_stack_web_developer.pdf"
           download="mayank_full_stack_web_developer.pdf"
           className="bg-red-600 hover:bg-red-700 px-6 py-3 rounded-lg text-white text-lg shadow-lg transition"
         >
