@@ -60,9 +60,9 @@ export default function Profile({ mode, url, name, email }) {
     >
       {/* Profile Header */}
       <div className="flex flex-col items-center">
-        <div className="rounded-full border-4 border-red-800 flex overflow-hidden center h-80 w-80 justify-center align-middle pt-3 mt-4 bg-white">
+        <div className="rounded-full border-4 border-red-800 flex overflow-hidden center h-80 w-80 justify-center align-middle mt-3 mt-4 bg-white">
           {" "}
-          <img src={url} alt="profile" className="object-cover" />{" "}
+          <img src={url} alt="profile" className="w-full object-cover" />{" "}
         </div>
         <h1 className="text-4xl font-bold mt-6">{name}</h1>
         <p className="text-red-600 font-semibold">

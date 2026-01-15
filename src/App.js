@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import React, { useState } from "react";
@@ -13,7 +12,7 @@ import Experience from "./pages/Experience";
 
 const name = "Mayank Chauhan";
 const email = "chauhanmayank.009.m@gmail.com";
-const imgurl = "mayank-chauhan-bg.png";
+const imgurl = "mayank-chauhan-bg.jpeg";
 const tel = "+917465942719";
 
 function App() {
